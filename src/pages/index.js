@@ -20,7 +20,7 @@ const IndexPage = () => (
                        	html.clientHeight, html.scrollHeight, html.offsetHeight)
 			
 			  parent.postMessage(JSON.stringify({ subject:
-			  "lti.frameResize", height: height}), "*"); }, 0); } );
+			  "lti.frameResize", height: height}), "*"); }, 0)} );
 		    </script> 
       </Helmet>
     </div>
