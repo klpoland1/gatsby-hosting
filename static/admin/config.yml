@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: klpoland1/gatsby-hosting
 
 media_folder: static/assets
 public_folder: assets
